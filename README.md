@@ -8,3 +8,9 @@
   - for University:https://www.liftoff-game.com/our-products/liftoff-core
     
 To not use crappy drone simulator can we mod Liftoff or extract position of the game ?
+
+
+What is my goal ?
+
+Use API or hack drone games to not reacreate the wheel.
+Them allows human code and AI to received those hacked information and send input to play them on my computers.
