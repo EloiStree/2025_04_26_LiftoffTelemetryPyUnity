@@ -4,5 +4,5 @@
 
 - https://www.liftoff-game.com
 - https://store.steampowered.com/app/410340/Liftoff_FPV_Drone_Racing/
-
+- https://store.steampowered.com/app/1891780/Liftoff__DJI_FPV/
 To not use crappy drone simulator can we mod Liftoff or extract position of the game ?
