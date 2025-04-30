@@ -1,16 +1,34 @@
 # 2025_04_26_LiftoffForAI
- Is there an API to use Liftoff for training outside of the game as human or drone ?
-
 
 - https://www.liftoff-game.com
 - https://store.steampowered.com/app/410340/Liftoff_FPV_Drone_Racing/
 - https://store.steampowered.com/app/1891780/Liftoff__DJI_FPV/
   - for University:https://www.liftoff-game.com/our-products/liftoff-core
-    
-To not use crappy drone simulator can we mod Liftoff or extract position of the game ?
+
+Was going to hack the game to have position of the drone in aim to make POC...
+But the team of Liftoff are angle:
+[https://steamcommunity.com/sharedfiles/filedetails/?id=3160488434](https://steamcommunity.com/sharedfiles/filedetails/?id=3160488434)
+
+Find here python script and a Unity package to recovert the drone info with LiftOff Telemetry
+![image](https://github.com/user-attachments/assets/f30fdd98-0699-4f90-ac37-0dddd1624958)
+
+``` json
+{
+    "EndPoint": "127.0.0.1:9001",
+    "StreamFormat": [
+      "Timestamp",
+      "Position",
+      "Attitude",
+      "Velocity",
+      "Gyro",
+      "Input",
+      "Battery",
+      "MotorRPM"
+    ]
+  }
+```
 
 
-What is my goal ?
 
-Use API or hack drone games to not reacreate the wheel.
-Them allows human code and AI to received those hacked information and send input to play them on my computers.
+
+
