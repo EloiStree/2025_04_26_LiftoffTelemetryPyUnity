@@ -1,0 +1,29 @@
+
+{                                                                                
+  "name": "be.elab.liftofftelemetry",                              
+  "displayName": "LIftoff Telemetry",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Tool to listen at telemetry of LiftOff in Unity",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "Demo on how to use the package",
+      "path": "Scene/Demo"
+    }
+  ] ,     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2025_04_26_LiftoffForAI.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
