@@ -7,7 +7,7 @@
   - for University:https://www.liftoff-game.com/our-products/liftoff-core
 
 Was going to hack the game to have position of the drone in aim to make POC...
-But the team of Liftoff are angle:
+But the team of Liftoff are angel:
 [https://steamcommunity.com/sharedfiles/filedetails/?id=3160488434](https://steamcommunity.com/sharedfiles/filedetails/?id=3160488434)
 
 Find here python script and a Unity package to recovert the drone info with LiftOff Telemetry
