@@ -35,4 +35,7 @@ Find here python script and a Unity package to recovert the drone info with Lift
 
 
 
+![image](https://github.com/user-attachments/assets/a6caaaf8-464a-4357-9c18-be94b8c91206)
+
+
 
