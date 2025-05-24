@@ -2,6 +2,8 @@
 
 **Buy the game: https://www.liftoff-game.com**
 
+`python -m pip install scipy`
+
 Introduction:  
 [![image](https://github.com/user-attachments/assets/290111f1-cbaa-4790-aff1-4a368cf2e4cb)](https://youtu.be/7oHKXSvnPIw)  
 https://youtu.be/7oHKXSvnPIw  
