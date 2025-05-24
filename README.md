@@ -46,6 +46,19 @@ Tutorial on how to use it;
 https://www.youtube.com/watch?v=7oHKXSvnPIw
 
 
+-------
+
+This package allows you to diffuse telemetry with Python.  
+However, you may want to simulate input to play the game from your code or AI.  
+You will need a driver and some code.  
+You can look at:   
+https://github.com/EloiStree/2025_04_26_UdpGamepadToLiftoffPyUnity.git  
+
+
+-------
+
+
+
 
 3D Models
 [![image](https://github.com/user-attachments/assets/fcb230d2-e749-47f1-b0cd-66d7acf3f46b)](https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a)
