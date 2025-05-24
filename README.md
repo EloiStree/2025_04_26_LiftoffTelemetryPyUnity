@@ -44,3 +44,10 @@ Tutorial on how to use it;
 [![image](https://github.com/user-attachments/assets/bdcdb991-9cd2-4041-aa36-cdb63c4389e1)](https://www.youtube.com/watch?v=7oHKXSvnPIw)
 
 https://www.youtube.com/watch?v=7oHKXSvnPIw
+
+
+
+3D Models
+[![image](https://github.com/user-attachments/assets/fcb230d2-e749-47f1-b0cd-66d7acf3f46b)](https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a)
+[![image](https://github.com/user-attachments/assets/5efcc86e-7282-4a08-9962-8107267c046f)](https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a)
+SketchUp: https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a
