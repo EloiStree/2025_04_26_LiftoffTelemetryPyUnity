@@ -9,6 +9,42 @@ listen_telemetry_port:int=9001
 redirection_player_index_port:int=9002
 target_ip:str='127.0.0.1'
 
+targets_list_string_ipv4_port = []
+
+# get file path
+import os
+current_directory = os.path.dirname(os.path.abspath(__file__))
+string_path_ips_file = current_directory + os.sep + 'broadcast.txt'
+def import_ips_from_file(file_path):
+    # create file if it does not exist
+    if not os.path.exists(string_path_ips_file):
+        with open(string_path_ips_file, 'w') as f:
+            f.write(f"{target_ip}:{redirection_player_index_port}\n")
+
+    string_file_ips_content = ''
+
+    if os.path.exists(string_path_ips_file):
+        with open(string_path_ips_file, 'r') as f:
+            string_file_ips_content = f.read().strip()
+
+    string_lines = string_file_ips_content.split('\n')
+    for string_line in string_lines:
+        if string_line:
+            try:
+                target_ip, redirection_player_index_port = string_line.split(':')
+                if len(target_ip.split('.')) != 4:
+                    print(f"Invalid IP format in {string_path_ips_file}. Expected 'ip:port'. Using defaults.")
+                    continue
+                if not redirection_player_index_port.isdigit():
+                    print(f"Invalid port format in {string_path_ips_file}. Expected 'ip:port'. Using defaults.")
+                    continue
+                redirection_player_index_port = int(redirection_player_index_port)
+                targets_list_string_ipv4_port.append((target_ip,redirection_player_index_port))
+                print (f"Loaded target: {target_ip}:{redirection_player_index_port}")
+            except ValueError:
+                print(f"Invalid format in {string_path_ips_file}. Expected 'ip:port'. Using defaults.")
+
+import_ips_from_file(string_path_ips_file)
 
 # params optional
 # player index 
@@ -55,6 +91,12 @@ def listen_to_udp(port):
                 # send the byte array to the redirection player index port
                 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp_socket_send:
                     udp_socket_send.sendto(bytes_telemetry, (target_ip, redirection_player_index_port))
+                for target_ip, redirection_port in targets_list_string_ipv4_port:
+                    try:
+                        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp_socket_send:
+                            udp_socket_send.sendto(bytes_telemetry, (target_ip, redirection_port))
+                    except Exception as e:
+                        print(f"Failed to send data to {target_ip}:{redirection_port} - {e}")
                    
         except Exception as e:
             print(f"An error occurred: {e}")
