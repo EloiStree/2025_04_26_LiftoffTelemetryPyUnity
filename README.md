@@ -24,6 +24,10 @@ But the team of Liftoff are angels:
 Find here python script and a Unity package to recovert the drone info with LiftOff Telemetry
 ![image](https://github.com/user-attachments/assets/f30fdd98-0699-4f90-ac37-0dddd1624958)
 
+```
+TelemetryConfiguration.json
+```
+
 ``` json
 {
     "EndPoint": "127.0.0.1:9001",
