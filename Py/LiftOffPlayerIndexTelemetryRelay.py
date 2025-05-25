@@ -6,8 +6,7 @@ import sys
 
 player_index:int= random.randint( -200000000,-1)
 listen_telemetry_port:int=9001
-redirection_player_index_port:int=9002
-target_ip:str='127.0.0.1'
+
 
 targets_list_string_ipv4_port = []
 
@@ -19,7 +18,7 @@ def import_ips_from_file(file_path):
     # create file if it does not exist
     if not os.path.exists(string_path_ips_file):
         with open(string_path_ips_file, 'w') as f:
-            f.write(f"{target_ip}:{redirection_player_index_port}\n")
+            f.write(f"127.0.0.1:9002\n")
 
     string_file_ips_content = ''
 
@@ -57,12 +56,6 @@ if len(sys.argv) > 1:
         # Parse player index if provided
         if len(sys.argv) > 1:
             player_index = int(sys.argv[1])
-        # Parse target IP if provided
-        if len(sys.argv) > 2:
-            target_ip = sys.argv[2]
-        # Parse redirection port if provided
-        if len(sys.argv) > 3:
-            redirection_player_index_port = int(sys.argv[3])
     except ValueError:
         print("Invalid arguments. Usage: python LiftOffPlayerIndexTelemetryRelay.py [player_index] [target_ip] [redirection_port]")
         sys.exit(1)
@@ -70,8 +63,6 @@ if len(sys.argv) > 1:
 
 
 print (f"Player Index: {player_index}")
-print (f"Target IP: {target_ip}")
-print (f"Redirection Port: {redirection_player_index_port}")
 print (f"Listening Telemetry Port: {listen_telemetry_port}")
 
 
