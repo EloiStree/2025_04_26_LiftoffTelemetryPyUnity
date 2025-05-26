@@ -64,6 +64,8 @@ def listen_to_udp(port):
                 data, client_address = udp_socket.recvfrom(1024)
                 bytes_telemetry = bytearray(data)
                 # prepend player index as little endian int
+                int_lenght = len(bytes_telemetry)
+                print(f"Received telemetry data of length {int_lenght} from {client_address}")
                 bytes_telemetry = struct.pack('<i', player_index) + bytes_telemetry
 
                 for target_ip, redirection_port in targets_list_string_ipv4_port:
