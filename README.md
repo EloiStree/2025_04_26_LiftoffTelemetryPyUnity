@@ -68,3 +68,10 @@ https://github.com/EloiStree/2025_04_26_UdpGamepadToLiftoffPyUnity.git
 [![image](https://github.com/user-attachments/assets/fcb230d2-e749-47f1-b0cd-66d7acf3f46b)](https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a)
 [![image](https://github.com/user-attachments/assets/5efcc86e-7282-4a08-9962-8107267c046f)](https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a)
 SketchUp: https://sketchfab.com/3d-models/dji-fpv-7c5346e50ffb4e8c9ac12cb0847be39a
+
+
+
+Showcase:
+[![image](https://github.com/user-attachments/assets/ea9ec920-19a4-4f60-b1aa-d55d40a34453)](https://youtu.be/x3kWP84udQA)  
+https://youtu.be/x3kWP84udQA  
+
