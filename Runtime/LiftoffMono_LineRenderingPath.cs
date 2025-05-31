@@ -64,7 +64,9 @@ public class LiftoffMono_LineRenderingPath : MonoBehaviour
         }
         // Update the last position of the LineRenderer to follow the target
         Vector3 newPoint = m_targetToFollow.position;
-        m_points[0] = newPoint;
+        if (m_points.Length > 0) { 
+            m_points[0] = newPoint;
+        }
         m_lineRenderer.SetPositions(m_points);
        
 
@@ -84,7 +86,8 @@ public class LiftoffMono_LineRenderingPath : MonoBehaviour
         {
             m_points[i] = m_points[i - 1]; // Shift points to the right
         }
-        m_points[1] = newPoint;
+        if (m_points.Length > 1)
+            m_points[1] = newPoint;
 
         m_lineRenderer.SetPositions(m_points);
     }
