@@ -344,6 +344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Udp To Drone Sample
       objectReference: {fileID: 0}
+    - target: {fileID: 2654678823699756868, guid: 652150a190ee72b4b8ab6d2e890c965b, type: 3}
+      propertyPath: m_lastParsedTelemetry.m_playerIndex
+      value: -471
+      objectReference: {fileID: 0}
     - target: {fileID: 4367458020036487817, guid: 652150a190ee72b4b8ab6d2e890c965b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
