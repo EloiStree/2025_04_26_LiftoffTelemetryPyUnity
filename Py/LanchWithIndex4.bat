@@ -1,0 +1,2 @@
+python LiftOffPlayerIndexTelemetryRelay.py 4
+pause 15
