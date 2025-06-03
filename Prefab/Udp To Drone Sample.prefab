@@ -640,11 +640,77 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.96996236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.9315591
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2539579487290790000}
   m_SourcePrefab: {fileID: 100100000, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+--- !u!1 &6268608300527029057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+  m_PrefabInstance: {fileID: 5201114452850547346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2539579487290790000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268608300527029057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64056347ed649644fbbc62f9757f9ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetTransform: {fileID: 8762656904920697220}
+  m_position:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Eloi.StringFormat.AbstractFormatRelayMono`1[[UnityEngine.Vector3,
+          UnityEngine
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_rotationEuler:
+    m_PersistentCalls:
+      m_Calls: []
+  m_rotation:
+    m_PersistentCalls:
+      m_Calls: []
+  m_scale:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &8762656904920697220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3581808723542315798, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
@@ -661,6 +727,10 @@ PrefabInstance:
     - target: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
       propertyPath: m_Name
       value: Solo Drone Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3581808723542315798, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -764,16 +834,82 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.07066631
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0.22167921
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4167922845996542098}
   m_SourcePrefab: {fileID: 100100000, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
 --- !u!4 &6343507402112169310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3581808723542315798, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
   m_PrefabInstance: {fileID: 7619402627299042888}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8605550205412210587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+  m_PrefabInstance: {fileID: 7619402627299042888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4167922845996542098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605550205412210587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64056347ed649644fbbc62f9757f9ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetTransform: {fileID: 6343507402112169310}
+  m_position:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Eloi.StringFormat.AbstractFormatRelayMono`1[[UnityEngine.Vector3,
+          UnityEngine
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_rotationEuler:
+    m_PersistentCalls:
+      m_Calls: []
+  m_rotation:
+    m_PersistentCalls:
+      m_Calls: []
+  m_scale:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &9212676924802303905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -826,13 +962,79 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0.009601116
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.030630242
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703954083399733679, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      propertyPath: m_Parameters.colorGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1536247979453789005}
   m_SourcePrefab: {fileID: 100100000, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
 --- !u!4 &5651776553032684727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3581808723542315798, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
   m_PrefabInstance: {fileID: 9212676924802303905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6992543047518230130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2220415356645937619, guid: 56e49cc4c63a4c2449bb5aab517c3ca3, type: 3}
+  m_PrefabInstance: {fileID: 9212676924802303905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1536247979453789005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992543047518230130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64056347ed649644fbbc62f9757f9ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetTransform: {fileID: 5651776553032684727}
+  m_position:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Eloi.StringFormat.AbstractFormatRelayMono`1[[UnityEngine.Vector3,
+          UnityEngine
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_rotationEuler:
+    m_PersistentCalls:
+      m_Calls: []
+  m_rotation:
+    m_PersistentCalls:
+      m_Calls: []
+  m_scale:
+    m_PersistentCalls:
+      m_Calls: []
